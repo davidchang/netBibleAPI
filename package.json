@@ -1,0 +1,24 @@
+{
+  "name": "netBibleAPI",
+  "version": "0.0.1",
+  "description": "A Net Bible API wrapper for Node.js, from https://labs.bible.org/api_web_service",
+  "main": "netBible.js",
+  "scripts": {
+    "test": "node tests/apiTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidchang/netBibleAPI"
+  },
+  "keywords": [
+    "bible",
+    "api"
+  ],
+  "author": "David Chang <dchang.me@gmail.com>",
+  "dependencies": {
+    "q": "~0.8.12"
+  },
+  "devDependencies": {
+    "vows": "0.7.0"
+  }
+}
