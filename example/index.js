@@ -4,7 +4,7 @@ var http = require('http'),
 http.createServer(function (req, res) {
     res.writeHead(200, {"Content-Type": "application/json"});
     netBible.get("Nahum 1")
-        .then(function (data) {
+        .then(function(data) {
             res.end(data);
         }, function(error) {
             res.end("Error: " + error);

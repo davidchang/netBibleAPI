@@ -1,23 +1,22 @@
-ESV API Wrapper
+net Bible API Wrapper
 ================
 
-An extremely simple API wrapper for the ESV (English Standard Version) Bible API (http://esvapi.org)
+A wrapper for the net Bible API (https://labs.bible.org/api_web_service)
 
 There's currently only 1 method implemented because it's the only one I need right now.  I plan on improving it at some point, but it works for now.
 - - -
 
 ## Example
 ```js
-var = EsvApi = require('esv');
+var netBible = require('netBible');
 
-var = esvapi = new EsvApi("IP");
-
-esvapi.passageQuery({passage:"Romans 1-2"}, function(data) {
-    res.end(data);
-});
+netBible.get("Nahum 1")
+    .then(function(data) {
+        console.log(data);
+    });
 ```
 
 ## Todo
- - Implement other methods in the API 
+ - Implement other methods in the API
  - Make the code better
- - Eventually push it up to NPM
+ - Improve test cases
