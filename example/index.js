@@ -1,5 +1,5 @@
 var http = require('http'),
-    netBible = require('../netBible');
+    netBible = require('../netBibleAPI');
 
 http.createServer(function (req, res) {
     netBible.get("Nahum 1")

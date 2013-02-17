@@ -8,7 +8,7 @@ There's currently only 1 method implemented because it's the only one I need rig
 
 ## Example
 ```js
-var netBible = require('netBible');
+var netBible = require('netBibleAPI');
 
 netBible.get("Nahum 1")
     .then(function(data) {
