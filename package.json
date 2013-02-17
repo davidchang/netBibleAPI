@@ -1,5 +1,5 @@
 {
-  "name": "netBibleAPI",
+  "name": "net-bible-api",
   "version": "0.0.1",
   "description": "A Net Bible API wrapper for Node.js, from https://labs.bible.org/api_web_service",
   "main": "netBible.js",
